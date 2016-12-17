@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    style="@style/ThemeDialogCustom"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game"
+        android:id="@+id/tvStartGame"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="@string/YES"
+            android:id="@+id/btnYesDialog"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="30dp"
+            android:text="@string/QUIT"
+            android:id="@+id/btnQuitDialog"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:clickable="true"/>
+    </LinearLayout>
+</LinearLayout>

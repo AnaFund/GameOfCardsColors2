@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gameofcardscolors="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/btnMusic"
+        android:icon="@drawable/ic_music"
+        gameofcardscolors:showAsAction="ifRoom"
+        android:title="@string/music_on"
+        />
+
+    <item
+        android:id="@+id/btnMute"
+        android:icon="@drawable/ic_mute"
+        gameofcardscolors:showAsAction="ifRoom"
+        android:title="@string/music_off" />
+
+</menu>

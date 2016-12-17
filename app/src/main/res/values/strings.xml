@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GameOfCards&amp;Colors</string>
+    <string name="play">Play</string>
+    <string name="exit">Exit</string>
+    <string name="memori">Memory</string>
+    <string name="music_on">Music On</string>
+    <string name="music_off">Music Off</string>
+    <string name="quit_game">Quit Game</string>
+    <string name="YES">YES</string>
+    <string name="QUIT">QUIT</string>
+    <string name="start_game_">Start game?</string>
+    <string name="start_game">Do you want to start the game?</string>
+    <string name="game_of_cards"><![CDATA[Game of Cards&Colors™]]></string>
+    <string name="anas_fun_games">Ana\'s FunGames Inc.</string>
+    <string name="victory">VICTORY!!!</string>
+    <string name="scores">scores</string>
+    <string name="score">Score:</string>
+    <string name="high_score">High score:</string>
+</resources>
